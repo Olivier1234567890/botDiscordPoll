@@ -32,8 +32,8 @@ async def slash(interaction: discord.Interaction, question: str, reponse1: str, 
     reactions = ['🇦', '🇧', '🇨', '🇩', '🇪']
     reponses = [reponse1, reponse2]
     if reponse3 != '': reponses.append(reponse3)
-    if reponse4 != '': reponses.append(reponse3)
-    if reponse5 != '': reponses.append(reponse3)
+    if reponse4 != '': reponses.append(reponse4)
+    if reponse5 != '': reponses.append(reponse5)
 
     # Association de chaque réaction avec sa réponse
     propositions = []
